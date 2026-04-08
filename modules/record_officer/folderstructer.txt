@@ -1,0 +1,58 @@
+/assets
+                    -css
+                    -js
+                    -images
+        /includes
+                   -auth.php
+                   -config.php
+                    -db.php
+                    -fetch_notification.php
+        /modules
+               /admin
+                    -dashboard.php
+                    -logs.php
+                    -manage_user.php
+               / manager
+                       -approve_reports.php
+                       -assign_case.php
+                      -case_details.php
+                      -dashboard.php
+                      -files.php
+                     -managercase_view.php
+                     -receive_cases.php
+                     -review_cases.php
+                       -sidebar.php
+                       -assign_case.php
+                      -viewcase_details.php
+                      -view_case.php
+                      -view_reported_cases.php
+              / record_officer
+                                -approved_cases.php
+                               -assign_cases.php
+                               -dashboard.php
+                               -files.php
+                               -deatils.php
+                               -edit.php
+                              -regestration.php
+                              -sidebar.php
+                             -submit_form.php
+                             -unapproved_case.php
+                             -view_case.php
+                             -view_reported_cases.php
+                /surveyor
+                                 -complete_case.php
+                                -submit_case.php
+                                -investigate_cases.php
+                                -dashboard.php
+                                -survey_cases.php
+                                 -submit_surveyor_case.php
+                                 -survey_report_case.php
+                              
+        -public
+                                -index.php
+                                -login.php
+                                -logout.php
+                                -forgot_passsword.php 
+
+                               
+        -templates

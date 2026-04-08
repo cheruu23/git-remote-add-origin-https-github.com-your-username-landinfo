@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "vlucas/valitron": "^1.4",
+        "tecnickcom/tcpdf": "^6.7"
+    }
+}

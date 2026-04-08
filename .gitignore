@@ -1,0 +1,43 @@
+# Environment & Config
+includes/config.php
+
+# Uploaded files (user content - do not commit)
+Uploads/
+assets/images/gallery/
+assets/images/navbar_logo_*
+assets/images/sidebar_logo_*
+assets/images/user_*
+
+# Generated PDFs and certificates
+letters/
+asssets/images/Land\ Lease\ Certificate*
+
+# Debug and error logs
+*.log
+logs/
+modules/manager/debug.log
+modules/surveyor/debug.log
+modules/record_officer/debug.log
+modules/record_officer/upload_debug.log
+
+# Stray uploaded images in module directories
+modules/record_officer/*.jpg
+modules/record_officer/*.png
+modules/record_officer/*.jpeg
+
+# Composer vendor directory
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP error logs
+error.log
+php_errors.log
